@@ -1,0 +1,6 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:sinicide/hugo-test-content.git
+[submodule "themes/hugo-test-theme"]
+	path = themes/hugo-test-theme
+	url = git@github.com:sinicide/hugo-test-theme.git
