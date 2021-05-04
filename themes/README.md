@@ -1,2 +1,0 @@
-# README
-Themes go here.
