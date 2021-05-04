@@ -1,5 +1,5 @@
-config.toml
-config/*/config.toml
-static/*
-resources/*
+src/config.toml
+src/config/*/config.toml
+src/static/*
+src/resources/*
 hugo_stats.json
