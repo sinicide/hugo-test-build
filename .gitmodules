@@ -2,5 +2,7 @@
 	path = src/themes/hugo-test-theme
 	url = git@github.com:sinicide/hugo-test-theme.git
 [submodule "src/content"]
-	path = src/content
 	url = git@github.com:sinicide/hugo-test-content.git
+[submodule "src/themes/huynguyen-hugo-theme"]
+	path = src/themes/huynguyen-hugo-theme
+	url = git@github.com:sinicide/huynguyen-hugo-theme.git
