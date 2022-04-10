@@ -1,0 +1,99 @@
+baseURL: "http://example.org/"
+language: "en"
+languageCode: "en-us"
+title: "My New Hugo Site"
+
+theme: "hugo-test-theme"
+paginate: 2
+
+# Google Analytics
+googleAnalytics: ""
+
+# Enable global emoji support
+enableEmoji: true
+
+# robots.txt
+enableRobotsTXT: true
+
+params:
+  description: "website description"
+  author: "Huy Nguyen"
+  email: "super@secretemail.me"
+  dateFormat: "2006-01-02"
+
+  displayPagination: 5
+  archivePaginate: 365
+
+  showToc: true
+  
+  taxonomy:
+    tags: false
+    category: true
+
+  socials:
+    - name: "LinkedIn"
+      url: "https://linkedin.com"
+      title: "Need a CV?"
+    - name: "Github"
+      url: "https://github.com"
+      title: "The codes"
+    - name: "Twitter"
+      url: "https://twitter.com"
+      title: "The tweets"
+    - name: "Keybase"
+      url: "https://keybase.io"
+      title: "Verified!"
+
+  share:
+    twitter: true
+    facebook: true
+    reddit: true
+    linkedin: true
+    email: false
+
+      
+# Single Page Menu
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "#about"
+      weight: 1
+    - identifier: "social"
+      name: "Social"
+      url: "#social"
+      weight: 2
+    - identifier: "contact"
+      name: "Contact"
+      url: "#contact"
+      weight: 3
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog"
+      weight: 4
+  blog:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog"
+      weight: 2
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories"
+      weight: 3
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags"
+      weight: 4
+    - identifier: "archive"
+      name: "Archive"
+      url: "/archive"
+      weight: 5
+
+# Search
+outputs:
+  home: ["html","json"]
+  
