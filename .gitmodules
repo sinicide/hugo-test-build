@@ -1,3 +1,2 @@
 [submodule "src/themes/hugo-test-theme"]
-	path = src/themes/hugo-test-theme
 	url = git@github.com:sinicide/hugo-test-theme.git
