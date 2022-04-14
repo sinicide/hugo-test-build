@@ -1,0 +1,13 @@
+version: '3'
+services:
+  hugo-test:
+    image: hugo-test-build:0.1
+    container_name: hugo-test-build
+    ports:
+      - 1313:1313
+    environment:
+      HUGO_BUILD_ENVIRONMENT: "dev"
+    volumes:
+      - ./:/workdir
+      - ../hugo-test-content:/content
+      - ../huynguyen-hugo-theme:/themes/huynguyen-hugo-theme
