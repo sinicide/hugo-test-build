@@ -1,8 +1,8 @@
 # Pull in golang base image
-FROM golang:1.18.0
+FROM golang:1.19.2
 
 # ENV
-ENV HUGO_VERSION 0.96.0
+ENV HUGO_VERSION 0.105.0
 ENV HUGO_FILENAME hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 ENV HUGO_BIN_URL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_FILENAME}
 ENV HUGO_BUILD_ENVIRONMENT default
