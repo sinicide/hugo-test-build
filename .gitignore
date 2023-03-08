@@ -1,6 +1,6 @@
-**/config.??ml
 src/static/*
 src/resources/*
 hugo_stats.json
 generated/*
 .hugo_build.lock
+src/public/**
