@@ -10,4 +10,4 @@ services:
     volumes:
       - ./:/workdir
       - ../hugo-test-content:/content
-      - ../huynguyen-hugo-theme:/themes/huynguyen-hugo-theme
+      - ../hugo-theme-hello-bulma:/themes/hugo-theme-hello-bulma
