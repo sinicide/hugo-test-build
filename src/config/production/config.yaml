@@ -1,0 +1,9 @@
+baseUrl: "https://huynguyen.me/"
+theme: "hugo-theme-hello-bulma"
+paginate: 10
+
+# Google Analytics, specify this as an environment variable instead `env HUGO_googleAnalytics="XXXXXX"`
+#googleAnalytics: ""
+
+# robots.txt
+enableRobotsTXT: true
