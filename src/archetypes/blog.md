@@ -1,13 +1,14 @@
 ---
+layout: "blog"
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastMod: ""
+lastMod: {{ .Date }}
 image: ""
+youtubeId: ""
 categories: []
 tags: []
 description: ""
-disableComments: true
+disableComments: false
 draft: true
 ---
-
 

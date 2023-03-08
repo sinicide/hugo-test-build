@@ -1,11 +1,10 @@
 ---
+layout: 
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastMod: ""
+lastMod: {{ .Date }}
 categories: []
 tags: []
 description: ""
-disableComments: true
-draft: true
 ---
 
