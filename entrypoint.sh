@@ -13,6 +13,4 @@
     --source $HUGO_BUILD_SRC \
     --cleanDestinationDir \
     --destination $HUGO_BUILD_DEST \
-    --contentDir /content \
-    --themesDir /themes \
     --gc
