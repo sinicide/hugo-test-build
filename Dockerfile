@@ -16,7 +16,7 @@ curl -O -L ${HUGO_BIN_URL} && \
 tar -xvf ${HUGO_FILENAME} && \
 mv /tmp/hugo /bin && \
 rm -rf /tmp/* && \
-mkdir -p ${HUGO_BUILD_DEST} /themes /content
+mkdir -p ${HUGO_BUILD_DEST} 
 
 # Clean up
 RUN unset HUGO_FILENAME && \
